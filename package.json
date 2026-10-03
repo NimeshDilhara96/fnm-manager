@@ -1,6 +1,6 @@
 {
   "name": "nodeshift",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A compact desktop widget for managing Node.js versions",
   "main": "./out/main/index.js",
   "author": "Mommentx",
@@ -11,6 +11,12 @@
     "icon": "build/icon",
     "files": [
       "out/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "build/icon.png",
+        "to": "icon.png"
+      }
     ],
     "win": {
       "target": "nsis"

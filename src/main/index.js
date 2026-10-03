@@ -38,6 +38,10 @@ function parseFnmCommand(command) {
 }
 
 function createWindow() {
+  const iconPath = is.dev
+    ? join(__dirname, '../../build/icon.png')
+    : join(process.resourcesPath, 'icon.png')
+
   const mainWindow = new BrowserWindow({
     width: 380,
     height: 560,
@@ -45,6 +49,7 @@ function createWindow() {
     minHeight: 480,
     resizable: false,
     alwaysOnTop: true,
+    icon: iconPath,
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       contextIsolation: true,

@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NodeShift</title>
+  <desc id="desc">A blue NodeShift N mark with an arrow representing switching Node.js versions.</desc>
+  <defs>
+    <linearGradient id="background" x1="16" y1="10" x2="112" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="35" y1="32" x2="95" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="30" fill="#0F172A"/>
+  <rect x="12" y="12" width="104" height="104" rx="27" fill="url(#background)"/>
+  <path d="M35 91V37h13l31 34V37h14v54H80L49 57v34H35Z" fill="url(#mark)"/>
+  <path d="M77 98h18l-9 9" stroke="#BFDBFE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M95 98H68" stroke="#BFDBFE" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="100" cy="29" r="5" fill="#A5F3FC"/>
+</svg>
