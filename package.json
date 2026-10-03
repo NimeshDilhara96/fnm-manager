@@ -1,6 +1,6 @@
 {
   "name": "nodeshift",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "A compact desktop widget for managing Node.js versions",
   "main": "./out/main/index.js",
   "author": "Mommentx",
@@ -23,7 +23,8 @@
     },
     "nsis": {
       "oneClick": false,
-      "allowToChangeInstallationDirectory": true
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "NodeShift-${version}-setup.${ext}"
     }
   },
   "scripts": {

@@ -62,7 +62,7 @@ jobs:
         with:
           name: NodeShift-Windows-installer
           path: |
-            dist/*-setup.exe
+            dist/*.exe
             dist/*.blockmap
           if-no-files-found: error
           retention-days: 14
@@ -73,6 +73,6 @@ jobs:
         with:
           tag_name: ${{ github.ref_name }}
           files: |
-            dist/*-setup.exe
+            dist/*.exe
             dist/*.blockmap
           generate_release_notes: true
