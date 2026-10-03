@@ -1,6 +1,6 @@
 appId: com.nodeshift.app
 productName: NodeShift
-icon: build/icon
+icon: build/icon.png
 directories:
   buildResources: build
 files:
