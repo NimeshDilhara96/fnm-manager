@@ -1,6 +1,6 @@
-# Contributing to fnm_gui
+# Contributing to NodeShift
 
-Thanks for helping improve fnm_gui.
+Thanks for helping improve NodeShift.
 
 ## Development setup
 

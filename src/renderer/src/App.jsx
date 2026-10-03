@@ -189,7 +189,7 @@ function App() {
             Developer toolkit
           </p>
           <h1 style={{ color: '#f8fafc', margin: 0, fontSize: '20px', fontWeight: '700' }}>
-            FNM Version Manager
+            NodeShift
           </h1>
           <p style={{ color: '#94a3b8', margin: '3px 0 0', fontSize: '12px' }}>
             Keep your Node.js versions organized and ready to use.

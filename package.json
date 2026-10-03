@@ -1,13 +1,14 @@
 {
-  "name": "fnm_gui",
-  "version": "1.0.0",
-  "description": "A desktop manager for Fast Node Manager and Node.js versions",
+  "name": "nodeshift",
+  "version": "1.0.1",
+  "description": "A compact desktop widget for managing Node.js versions",
   "main": "./out/main/index.js",
   "author": "Mommentx",
   "license": "MIT",
   "build": {
-    "appId": "com.fnm.gui",
-    "productName": "fnm_gui",
+    "appId": "com.nodeshift.app",
+    "productName": "NodeShift",
+    "icon": "build/icon",
     "files": [
       "out/**/*"
     ],

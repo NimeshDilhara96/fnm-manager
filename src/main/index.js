@@ -98,8 +98,8 @@ function createApplicationMenu() {
 }
 
 app.whenReady().then(() => {
-  app.setName('fnm_gui')
-  electronApp.setAppUserModelId('com.fnm.gui')
+  app.setName('NodeShift')
+  electronApp.setAppUserModelId('com.nodeshift.app')
   createApplicationMenu()
 
   app.on('browser-window-created', (_, window) => {

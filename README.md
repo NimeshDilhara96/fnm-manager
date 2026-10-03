@@ -1,4 +1,4 @@
-# fnm_gui
+# NodeShift
 
 A small, always-on-top desktop widget for managing Node.js versions with
 [Fast Node Manager (fnm)](https://github.com/Schniz/fnm).
